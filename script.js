@@ -21,7 +21,7 @@ function sendMessage() {
 
 // Define the function to handle AI response
 async function fetchGroqData(prompt) {
-    const apiKey = "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"; // Your API key
+    const apiKey = "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"; // Your API key
     const url = "https://api.groq.com/openai/v1/chat/completions"; // Groq API endpoint
 
     const requestBody = {
